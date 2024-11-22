@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+    :root {
+        --background: #ffffff;
+        --foreground: #000000;
+      } 
+
+   body {
+    @apply h-full bg-black
+}

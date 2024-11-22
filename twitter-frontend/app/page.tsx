@@ -1,9 +1,15 @@
-import Image from "next/image";
+import React  from 'react'
+import Link from 'next/link'
 
-export default function Home() {
+function page() {
   return (
-   <div className="w-full bg-slate-100">
-    Hello World!!
+    <div>
+
+        <div className= "text-3xl text-orange-500">Welome Friend!!</div>
+        <Link href="/dashboard" className="text-blue-500">Dashboard</Link>
+      
    </div>
-  );
+  )
 }
+
+export default page
