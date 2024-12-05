@@ -1,15 +1,13 @@
-import React  from 'react'
-import Link from 'next/link'
+import React from 'react'
+import Header from '@/components/Header'
 
 function page() {
   return (
-    <div>
-
-        <div className= "text-3xl text-orange-500">Welome Friend!!</div>
-        <Link href="/dashboard" className="text-blue-500">Dashboard</Link>
-      
-   </div>
+    <>
+    <Header  label="Home"/>
+    </>
   )
 }
 
 export default page
+

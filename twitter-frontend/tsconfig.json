@@ -4,6 +4,8 @@
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
+    "noUnusedLocals": false, // Disable unused local variables check
+    "noUnusedParameters": false, // Disable unused parameter check
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
@@ -22,5 +24,6 @@
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+
 }
